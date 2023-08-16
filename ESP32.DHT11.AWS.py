@@ -172,8 +172,7 @@ def main():
                 print("Humidity:", h, "% Temperature:", t, "°C")
         except Exception as e:
             print("Error:", e)
-        
-        # Adjust the delay time according to your needs
+    
         utime.sleep(10)
 
 if __name__ == '__main__':
